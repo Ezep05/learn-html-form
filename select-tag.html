@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Tag</title>
+</head>
+<body>
+    <label for="hobby">Hobby :</label>
+    <select name="hobby" id="hobby" multiple size="2">
+        <option value="coding" selected>Coding</option>
+        <option value="gaming">Gaming</option>
+        <option value="reading">Reading</option>
+    </select>
+    <input type="submit" value="Submit"> <br>
+    <hr>
+    <!--Option Grup Examples-->
+    <label for="my_hobby">My Hobby :</label>
+    <select name="my_hobby" id="my_hobby">
+        <optgroup label="Coding">
+            <option value="python">Python</option>
+            <option value="javascript">Javascript</option>
+            <option value="PHP">PHP</option>
+        </optgroup>
+        <optgroup label="Gaming">
+            <option value="mobile_legend">Mobile Legend</option>
+            <option value="minecraft">Minecraft</option>
+            <option value="roblox">Roblox</option>
+        </optgroup>
+        <optgroup label="Sports">
+            <option value="football">Football</option>
+            <option value="basketball">Basketball</option>
+            <option value="volley">Volley</option>
+        </optgroup>
+    </select>
+</body>
+</html>
